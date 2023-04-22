@@ -43,7 +43,7 @@ h1,h2,h3 {
     color: var(--links-text-color);
 }
 
-.logo-2 {
+.logo-wtf {
     color: var(--title-text-color);
 } 
 
@@ -161,7 +161,7 @@ h1,h2,h3 {
     color: var(--text-footer-color);
     }
 
-.footer .logo-2{
+.footer .logo-wtf{
    color: var(--text-footer-color); 
 }
 .footer .text {
