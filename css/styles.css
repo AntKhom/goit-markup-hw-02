@@ -191,14 +191,10 @@ h1,h2,h3 {
     color: var(--primary-white-color);
 }
 
-/* .portfolio-list .title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+.portfolio .title {
+    letter-spacing: 0.02em;
 }
 
-.portfolio-list .text {
-    /* font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-} */
+.portfolio .text {
+    color: var(--primary-text-color)
+} 
