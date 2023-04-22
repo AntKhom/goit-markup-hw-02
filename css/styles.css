@@ -172,7 +172,7 @@ h1,h2,h3 {
 
 /* Portfolio */
 
-.filter .btn {
+.list .btn {
     background-color: var(--text-footer-color);
     color: var(--links-text-color);
     font-family: inherit;
@@ -185,8 +185,8 @@ h1,h2,h3 {
     cursor: pointer;
 }
 
-.filter .btn:hover,
-.filter .btn:focus {
+.list .btn:hover,
+.list .btn:focus {
     background-color: var(--links-hover-color);
     color: var(--primary-white-color);
 }
