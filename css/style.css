@@ -1,3 +1,151 @@
-body { 
-    background-color: #fff;
+/* Main colors */
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --links-text-color: #4D5AE5;
+    --links-hover-color: #404BBF;
+    --primary-white-color: #ffffff;
+    --text-footer-color:#F4F4FD;
 }
+
+
+body { 
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+
+h1,h2,h3 {
+    color: var(--title-text-color);
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Header */
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo1 {
+    color: var(--links-text-color);
+}
+
+.site-nav .link{
+    color: var(--title-text-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.site-nav .link:hover,
+.site-nav .link:active{
+    color: var(--links-hover-color);
+}
+
+.address .link{
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.address .link:hover,
+.address .link:active {
+    color: var(--links-hover-color);
+}
+
+/* main */
+/* Hero */
+.hero {
+    background-color: var(--title-text-color);
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.hero-btn {
+    background-color: var(--links-text-color);
+    color: var(--primary-white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:active {
+    background-color: var(--links-hover-color);
+}
+
+/* Section */
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* Advanteges */
+.advant-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.advant-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Projectes */
+/* Team */
+
+.team-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.team-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--title-text-color);
+    color: var(--text-footer-color);
+    }
+
+.footer .logo {
+    color: var(--text-footer-color);
+}
+
+
+.footer .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
