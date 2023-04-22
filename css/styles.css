@@ -26,6 +26,9 @@ h1,h2,h3 {
 /* Header */
 .list {
     list-style-type: none;
+}
+
+.link{
     text-decoration: none;
 }
 
@@ -57,7 +60,7 @@ h1,h2,h3 {
     color: var(--links-hover-color);
 }
 
-.info {
+.info .link{
     color: var(--primary-text-color);
     font-style: normal;
     font-size: 16px;
