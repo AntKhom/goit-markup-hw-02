@@ -53,7 +53,7 @@ ul{
     color: var(--links-hover-color);
 }
 
-.address .link{
+.info .link{
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 400;
@@ -61,8 +61,8 @@ ul{
     line-height: 1.5;
 }
 
-.address .link:hover,
-.address .link:active {
+.info .link:hover,
+.info .link:active {
     color: var(--links-hover-color);
 }
 
@@ -110,7 +110,7 @@ ul{
     line-height: 1.2;
 }
 .advant-list .text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
 }
@@ -126,7 +126,7 @@ ul{
 }
 
 .team-list .text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -144,7 +144,7 @@ ul{
 
 
 .footer .text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
 }
@@ -176,7 +176,7 @@ ul{
 }
 
 .portfolio-list .text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.5;
 }
