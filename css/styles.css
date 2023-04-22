@@ -21,17 +21,12 @@ h1,h2,h3 {
     color: var(--title-text-color);
 }
 
-.list{
-    list-style-type: none;
-} 
+
 
 /* Header */
-/* .link {
+.list {
+    list-style-type: none;
     text-decoration: none;
-} */
-
-.site-nav .logo {
-
 }
 
 .logo {   
