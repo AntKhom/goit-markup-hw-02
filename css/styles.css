@@ -74,7 +74,7 @@ h1,h2,h3 {
 }
 
 /* main */
-/* Hero */
+/* Hero section 1*/
 .hero {
     background-color: var(--title-text-color);
 }
@@ -113,7 +113,6 @@ h1,h2,h3 {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    letter-spacing: 0.02em;
 }
 
 .list .title {
@@ -127,17 +126,26 @@ h1,h2,h3 {
     line-height: 1.5;
 }
 /* Advanteges */
+
+.advant .title {
+    letter-spacing: 0.02em;
+}
 /* Projectes */
+
+.project .title{
+    letter-spacing: 0.02em;
+}
 /* Team */
-.seaction-team{
+.team{
     background-color: var(--text-footer-color);
 }
 
-.seaction-team .title {
+.team .title {
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
-.seaction-team .text {
+.team .text {
     /* font-weight: 400; */
     text-align: center;
 }
