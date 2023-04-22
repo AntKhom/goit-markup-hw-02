@@ -160,7 +160,7 @@ h1,h2,h3 {
     color: var(--text-footer-color);
     }
 
-.logo-footer-2{
+.footer .logo-2{
    color: var(--text-footer-color); 
 }
 .footer .text {
