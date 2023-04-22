@@ -60,11 +60,12 @@ h1,h2,h3 {
     color: var(--links-hover-color);
 }
 
+.info {
+    font-style: normal;
+}
+
 .info .link{
     color: var(--primary-text-color);
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 .info .link:hover,
