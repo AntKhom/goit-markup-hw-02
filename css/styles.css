@@ -27,21 +27,26 @@ ul{
 }
 
 /* Header */
-.logo {
+.link {
+    text-decoration: none;
+}
+
+.site-nav .logo {
     color: var(--title-text-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
-    text-decoration: none;
-}
-
-.logo1 {
+    letter-spacing: 0.03em;
     color: var(--links-text-color);
 }
 
-.site-nav .link{
+ .logo-2 {
+    color: var(--title-text-color);
+} 
+
+.list .link{
     color: var(--title-text-color);
     font-family: 'Roboto';
     font-weight: 500;
@@ -49,8 +54,8 @@ ul{
     line-height: 1.5;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus{
+.list .link:hover,
+.list .link:focus{
     color: var(--links-hover-color);
 }
 
