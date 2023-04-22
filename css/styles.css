@@ -145,6 +145,10 @@ h1,h2,h3 {
     letter-spacing: 0.02em;
 }
 
+.team .item {
+    background-color: var(--primary-white-color);
+}
+
 .team .text {
     /* font-weight: 400; */
     text-align: center;
@@ -156,7 +160,7 @@ h1,h2,h3 {
     color: var(--text-footer-color);
     }
 
-.footer .logo-2{
+.logo-footer-2{
    color: var(--text-footer-color); 
 }
 .footer .text {
