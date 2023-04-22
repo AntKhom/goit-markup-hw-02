@@ -105,7 +105,7 @@ h1,h2,h3 {
     background-color: var(--links-hover-color);
 }
 
-/* Section */
+/* Sections */
 
 .section-title{
     font-weight: 700;
@@ -115,7 +115,7 @@ h1,h2,h3 {
     text-transform: capitalize;
     letter-spacing: 0.02em;
 }
-/* Advanteges */
+
 .list .title {
     font-weight: 500;
     font-size: 20px;
@@ -126,7 +126,7 @@ h1,h2,h3 {
     font-size: 16px;
     line-height: 1.5;
 }
-
+/* Advanteges */
 /* Projectes */
 /* Team */
 .seaction-team{
