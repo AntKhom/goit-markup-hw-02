@@ -19,6 +19,7 @@ body {
 
 h1,h2,h3 {
     color: var(--title-text-color);
+    letter-spacing: inherit;
 }
 
 ul{
@@ -49,7 +50,7 @@ ul{
 }
 
 .site-nav .link:hover,
-.site-nav .link:active{
+.site-nav .link:focus{
     color: var(--links-hover-color);
 }
 
@@ -62,7 +63,7 @@ ul{
 }
 
 .info .link:hover,
-.info .link:active {
+.info .link:focus {
     color: var(--links-hover-color);
 }
 
@@ -83,14 +84,16 @@ ul{
 .hero-btn {
     background-color: var(--links-text-color);
     color: var(--primary-white-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
-.hero-btn:active {
+.hero-btn:focus {
     background-color: var(--links-hover-color);
 }
 
