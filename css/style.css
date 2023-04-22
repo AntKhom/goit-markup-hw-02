@@ -149,3 +149,34 @@ ul{
     line-height: 1.5;
 }
 
+/* Portfolio */
+
+.filter .btn {
+    background-color: var(--text-footer-color);
+    color: var(--links-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter .btn:hover {
+    background-color: var(--links-hover-color);
+    color: var(--primary-white-color);
+}
+
+.portfolio-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
